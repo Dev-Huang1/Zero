@@ -14,6 +14,7 @@ const LANGUAGES = {
   tr: "Turkish",
   lv: "Latvian",
   hu: "Hungarian",
+  zh: "Chinese",
 } as const;
 
 export type Locale = keyof typeof LANGUAGES;
